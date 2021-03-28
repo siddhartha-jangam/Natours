@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* Default browser font size is 16 px. Here we need font-size as 10px. So to set the 10px here we need to divide the (10/16)*100% . So you will get the 62.5% */
+
+  font-size: 62.5%; // This defines what 1 rem is
+}
+
+body {
+  box-sizing: border-box;
+}
